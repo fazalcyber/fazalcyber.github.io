@@ -401,7 +401,7 @@ VirtualBox will automatically create the virtual machine.
 
 ---
 
-### Step 7: Start Parrot OS
+### Step 5: Start Parrot OS
 
 <center>
   <img src="images/17.png" alt="17" width="600">
@@ -413,7 +413,7 @@ VirtualBox will automatically create the virtual machine.
 
 ---
 
-### Step 8: Login to Parrot OS
+### Step 6: Login to Parrot OS
 
 <center>
   <img src="images/18.png" alt="18" width="600">
