@@ -10,11 +10,11 @@
 | **Category** | Boot2Root / Privilege Escalation |
 
 <center>
-  <img src="images/329(1).png" alt="steps for hacking" width="600">
+  <img src="images/329 (1).png" alt="steps for hacking" width="600">
 </center>
 
 <center>
-  <img src="images/329(2).png" alt="steps for hacking" width="600">
+  <img src="images/329 (2).png" alt="steps for hacking" width="600">
 </center>
 ---
 
@@ -25,11 +25,11 @@ nmap 192.168.29.70 -p- -sV
 ```
 
 <center>
-  <img src="images/329(10).png" alt="steps for hacking" width="600">
+  <img src="images/329 (10).png" alt="steps for hacking" width="600">
 </center>
 
 <center>
-  <img src="images/329(3).png" alt="steps for hacking" width="600">
+  <img src="images/329 (3).png" alt="steps for hacking" width="600">
 </center>
 
 ### Results
@@ -56,7 +56,7 @@ ftp 192.168.29.70
 - Password: *(blank)*
 
 <center>
-  <img src="images/329(7).png" alt="steps for hacking" width="600">
+  <img src="images/329 (7).png" alt="steps for hacking" width="600">
 </center>
 
 ### Files Found
@@ -67,11 +67,11 @@ cat note.txt
 ```
 
 <center>
-  <img src="images/329(8).png" alt="steps for hacking" width="600">
+  <img src="images/329 (8).png" alt="steps for hacking" width="600">
 </center>
 
 <center>
-  <img src="images/329(9).png" alt="steps for hacking" width="600">
+  <img src="images/329 (9).png" alt="steps for hacking" width="600">
 </center>
 
 **Output:**
@@ -92,7 +92,7 @@ Access the web application at:
 http://192.168.29.70:1515
 ```
 <center>
-  <img src="images/329(11).png" alt="steps for hacking" width="600">
+  <img src="images/329 (11).png" alt="steps for hacking" width="600">
 </center>
 ### Generate Wordlist Using CeWL
 
@@ -100,7 +100,7 @@ http://192.168.29.70:1515
 cewl -d 1 -m 4 -w passwords.txt http://192.168.29.70:1515
 ```
 <center>
-  <img src="images/329(12).png" alt="steps for hacking" width="600">
+  <img src="images/329 (12).png" alt="steps for hacking" width="600">
 </center>
 > Scrapes the webpage content and generates a custom wordlist saved to `passwords.txt`
 
@@ -120,7 +120,7 @@ hydra -l jack -P passwords.txt ssh://192.168.29.70:3535
 | Password | `Cyberspace` |
 
 <center>
-  <img src="images/329(13).png" alt="steps for hacking" width="600">
+  <img src="images/329 (13).png" alt="steps for hacking" width="600">
 </center>
 ---
 
@@ -130,7 +130,7 @@ hydra -l jack -P passwords.txt ssh://192.168.29.70:3535
 ssh jack@192.168.29.70 -p 3535
 ```
 <center>
-  <img src="images/329(15).png" alt="steps for hacking" width="600">
+  <img src="images/329 (15).png" alt="steps for hacking" width="600">
 </center>
 
 ---
@@ -142,7 +142,7 @@ ls
 cat note.txt
 ```
 <center>
-  <img src="images/329(16).png" alt="steps for hacking" width="600">
+  <img src="images/329 (16).png" alt="steps for hacking" width="600">
 </center>
 
 **Output:**
@@ -165,7 +165,7 @@ Generates all 4-character combinations using the characters: `a`, `c`, `1`, `5`
 **Total combinations:** 4! = 24 permutations
 
 <center>
-  <img src="images/329(17).png" alt="steps for hacking" width="600">
+  <img src="images/329 (17).png" alt="steps for hacking" width="600">
 </center>
 ---
 
@@ -176,7 +176,7 @@ hydra -l goblin -P goblin.txt ssh://192.168.29.70:3535
 ```
 
 <center>
-  <img src="images/329(18).png" alt="steps for hacking" width="600">
+  <img src="images/329 (18).png" alt="steps for hacking" width="600">
 </center>
 
 ### Credentials Found
@@ -194,11 +194,11 @@ hydra -l goblin -P goblin.txt ssh://192.168.29.70:3535
 su goblin
 ```
 <center>
-  <img src="images/329(19).png" alt="steps for hacking" width="600">
+  <img src="images/329 (19).png" alt="steps for hacking" width="600">
 </center>
 
 <center>
-  <img src="images/329(20).png" alt="steps for hacking" width="600">
+  <img src="images/329 (20).png" alt="steps for hacking" width="600">
 </center>
 ---
 
@@ -208,7 +208,7 @@ su goblin
 locate final.sh
 ```
 <center>
-  <img src="images/329(21).png" alt="steps for hacking" width="600">
+  <img src="images/329 (21).png" alt="steps for hacking" width="600">
 </center>
 
 **Output:**
@@ -222,7 +222,7 @@ locate final.sh
 ## 11. Exploitation
 
 <center>
-  <img src="images/329(22).png" alt="steps for hacking" width="600">
+  <img src="images/329 (22).png" alt="steps for hacking" width="600">
 </center>
 
 ```bash
@@ -238,11 +238,11 @@ cd /usr/share/hs
 whoami
 ```
 <center>
-  <img src="images/329(23).png" alt="steps for hacking" width="600">
+  <img src="images/329 (23).png" alt="steps for hacking" width="600">
 </center>
 
 <center>
-  <img src="images/329(24).png" alt="steps for hacking" width="600">
+  <img src="images/329 (24).png" alt="steps for hacking" width="600">
 </center>
 **Output:**
 
